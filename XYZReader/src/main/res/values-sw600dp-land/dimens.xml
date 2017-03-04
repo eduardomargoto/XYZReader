@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- detail -->
+    <bool name="detail_is_card">true</bool>
+
+    <dimen name="detail_photo_height">600dp</dimen>
+</resources>

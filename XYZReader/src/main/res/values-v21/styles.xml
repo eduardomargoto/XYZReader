@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.Bacon" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowExitTransition">@transition/slide_top</item>
+        <item name="android:windowReenterTransition">@transition/slide_bottom</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowBackground">@color/background</item>
+
+    </style>
+
+    <style name="Theme.Bacon.Detail" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="android:windowEnterTransition">@transition/fade_photo</item>
+        <item name="android:windowReturnTransition">@transition/explode</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

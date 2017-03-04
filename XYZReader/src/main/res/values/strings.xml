@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">XYZ Reader</string>
+    <string name="welcome_xyz_reader">Welcome to XYZ Reader!</string>
+
+
+    <string name="content_description_photo">Article photo</string>
+
+
+    <string name="text_not_available">N/A</string>
+
+    <string name="assets_rosario_font_name" translatable="false" formatted="false">Rosario-Regular.ttf</string>
+
+    <string name="action_share">Share</string>
+
+    <string name="up">Up</string>
+
+</resources>

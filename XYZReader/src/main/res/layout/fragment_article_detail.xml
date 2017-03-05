@@ -8,6 +8,7 @@
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:elevation="@dimen/cardview_default_elevation"
         android:background="?colorPrimary"
         android:fitsSystemWindows="true">
 

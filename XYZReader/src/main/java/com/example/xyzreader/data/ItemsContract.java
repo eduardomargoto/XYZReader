@@ -21,8 +21,6 @@ public class ItemsContract {
         String THUMB_URL = "thumb_url";
 		/** Type: TEXT NOT NULL */
 		String PHOTO_URL = "photo_url";
-		/** Type: REAL NOT NULL DEFAULT 1.5 */
-		String ASPECT_RATIO = "aspect_ratio";
 		/** Type: INTEGER NOT NULL DEFAULT 0 */
 		String PUBLISHED_DATE = "published_date";
 	}

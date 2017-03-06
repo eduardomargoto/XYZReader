@@ -9,8 +9,7 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 
 public class ImageLoaderHelper {
-    private final static String LOG_TAG = ImageLoaderHelper.class.getSimpleName();
-    public static final String PATH_START = "#W0#H0";
+
     private static ImageLoaderHelper sInstance;
 
     public static ImageLoaderHelper getInstance(Context context) {
@@ -44,7 +43,4 @@ public class ImageLoaderHelper {
         return mImageLoader;
     }
 
-    public LruCache<String, Bitmap> getImageCache() {
-        return mImageCache;
-    }
 }

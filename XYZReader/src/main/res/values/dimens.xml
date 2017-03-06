@@ -1,7 +1,9 @@
 <resources>
     <!-- list -->
     <integer name="list_column_count">2</integer>
-    <dimen name="toolbar_elevation">8dp</dimen>
+    <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_elevation_picked_up">8dp</dimen>
 
     <!-- list items -->
     <dimen name="list_side_margin">4dp</dimen>
@@ -29,7 +31,6 @@
     <dimen name="detail_metabar_title_bottom_padding">4dp</dimen>
 
     <!-- floating action button-->
-    <dimen name="card_elevation">6dp</dimen>
     <dimen name="fab_elevation">4dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
